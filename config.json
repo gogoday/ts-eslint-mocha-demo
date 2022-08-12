@@ -1,0 +1,5 @@
+{
+    "secretId": "SecretId",
+    "secretKey": "SecretKey",
+    "port": 3000
+}

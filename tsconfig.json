@@ -3,12 +3,10 @@
     "allowJs": true,
     "module": "commonjs",
     "target": "es5",
-    "lib": [
-      "es2015",
-      "es2016"
-    ],
+    "lib": ["es2015", "es2016", "DOM"],
     "noImplicitAny": false,
     "moduleResolution": "node",
+    "esModuleInterop": true,
     "sourceMap": false,
     "baseUrl": "./src",
     "outDir": "./dist",
@@ -16,11 +14,6 @@
     "noEmitOnError": true,
     "noErrorTruncation": true
   },
-  "include": [
-    "./src/**/*.ts"
-  ],
-  "exclude": [
-    "node_modules"
-  ]
+  "include": ["./src/**/*.ts"],
+  "exclude": ["node_modules"]
 }
-
